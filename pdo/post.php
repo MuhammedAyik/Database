@@ -24,20 +24,19 @@
     <input type="submit" value="Verzenden">
 </form>
   <?php
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $naam = $_POST["naam"];
     $achternaam = $_POST["achternaam"];
     $leeftijd = $_POST["leeftijd"];
     $adres = $_POST["adres"];
     $email = $_POST["email"];
     
-    echo "<h2>Ingevoerde gegevens:</h2>";
-    echo "<p><strong>Naam:</strong> $naam</p>";
-    echo "<p><strong>Achternaam:</strong> $achternaam</p>";
-    echo "<p><strong>Leeftijd:</strong> $leeftijd</p>";
-    echo "<p><strong>Adres:</strong> $adres</p>";
-    echo "<p><strong>E-mail:</strong> $email</p>";
-  }
+    echo $naam;
+    echo $achternaam;
+    echo $leeftijd;
+    echo $adres;
+    echo $email;
   ?>
 </body>
 </html>
+
+
