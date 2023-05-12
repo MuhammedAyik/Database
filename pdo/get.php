@@ -23,22 +23,17 @@
     <input type="submit" value="Verzenden">
 
     <?php
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
-  if (isset($_GET['naam']) && isset($_GET['achternaam']) && isset($_GET['leeftijd']) && isset($_GET['adres']) && isset($_GET['email'])) {
     $naam = $_GET['naam'];
     $achternaam = $_GET['achternaam'];
     $leeftijd = $_GET['leeftijd'];
     $adres = $_GET['adres'];
     $email = $_GET['email'];
-
-    echo "<h2>Ingevoerde gegevens:</h2>";
-    echo "<p><strong>Naam:</strong> " . htmlspecialchars($naam) . "</p>";
-    echo "<p><strong>Achternaam:</strong> " . htmlspecialchars($achternaam) . "</p>";
-    echo "<p><strong>Leeftijd:</strong> " . htmlspecialchars($leeftijd) . "</p>";
-    echo "<p><strong>Adres:</strong> " . htmlspecialchars($adres) . "</p>";
-    echo "<p><strong>E-mail:</strong> " . htmlspecialchars($email) . "</p>";
-  }
-}
+    
+    echo $naam;
+    echo $achternaam;
+    echo $leeftijd;
+    echo $adres;
+    echo $email;
 ?>
   </form>
 </body>
