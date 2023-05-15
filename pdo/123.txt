@@ -1,9 +1,0 @@
-GET-methode:
-Gegevens worden toegevoegd aan de URL van het verzoek als queryparameters.
-Gegevens worden zichtbaar in de URL van de pagina.
-Gegevenslimiet: Er is een beperkte lengte aan de gegevens die kunnen worden verzonden (meestal rond de 2048 tekens).
-
-POST-methode:
-Gegevens worden verzonden als onderdeel van het HTTP-verzoek en zijn niet zichtbaar in de URL van de pagina.
-Gegevenslimiet: Er is geen beperking op de lengte van de gegevens die kunnen worden verzonden.
-Veiligheid: Veiliger dan GET omdat gegevens niet zichtbaar zijn in de URL en niet gecachet worden door de browser.
