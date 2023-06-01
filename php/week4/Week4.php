@@ -5,7 +5,7 @@ for ($i = 0; $i <= 50; $i++) {
 
    echo "<br>";
 
-    $klasnamen = array("Vinu", "Zakaria", "Lakshya", "Zee", "Muhammed", "Daniël", "Gorav", "Ömer", "Mehmet", "Jaber",);
+    $klasnamen = array("mehmet", "omer", "burak", "erencan", "jaber", "paul", "vinu", "ghor", "levinio", "daniel",);
     foreach ($klasnamen as $klasnamen) {
     echo $klasnamen . "<br>";
     }
