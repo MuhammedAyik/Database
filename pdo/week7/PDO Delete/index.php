@@ -1,5 +1,4 @@
 <?php
-// Maak een verbinding met de database
 $servername = "localhost:3307";
 $username = "root";
 $password = "";
@@ -10,7 +9,6 @@ if ($conn->connect_error) {
     die("Verbinding mislukt: " . $conn->connect_error);
 }
 
-// Selecteer alle gegevens uit de tabel producten
 $sql = "SELECT omschrijving, prijs_per_stuk, product_code, product_naam FROM producten ORDER BY product_naam";
 $result = $conn->query($sql);
 ?>
@@ -23,7 +21,6 @@ $result = $conn->query($sql);
 <body>
     <?php
     if ($result->num_rows > 0) {
-        // Output van de gegevens in een mooie volgorde
         echo "<table>
                 <tr>
                     <th>Omschrijving</th>
@@ -44,7 +41,6 @@ $result = $conn->query($sql);
         echo "Geen producten gevonden.";
     }
 
-    // Sluit de databaseverbinding
     $conn->close();
     ?>
 
