@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.hai{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%),url("../images/carbg2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    animation: infiniteScrollBg 50s linear infinite;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    animation: infiniteScrollBg 50s linear infinite;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width:200px;
+    float: left;
+    height : 70px;
+}
+
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+.content-table{
+   border-collapse: collapse;
+    font-size: 1em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow:0 0  20px rgba(0,0,0,0.15);
+    margin-left : 100px ;
+    margin-top: 25px;
+    width: 1300px;
+    height: 300px;
+}
+.content-table thead tr{
+    background-color: red;
+    color: white;
+    text-align: left;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+
+
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid red;
+}
+
+.content-table thead .active-row{
+    font-weight:  bold;
+    color: red;
+}
+
+
+.header{
+    margin-top: -700px;
+    margin-left: 650px;
+}
+
+
+.nn{
+    width:100px;
+    background: red;
+    border:none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    transition: 0.4s ease;
+
+}
+
+
+.nn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #e25e00;
+}
+
+.but a{
+    text-decoration: none;
+    color: black;
+
+}
+.menu {
+            width: 400px;
+            float: left;
+            height: 70px;
+        }
+
+        ul {
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li {
+            list-style: none;
+            margin-left: 62px;
+            margin-top: 27px;
+            font-size: 14px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-family: Arial;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+        }
+
+        form {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: red;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #e25e00;
+        }
+
+        p.success {
+            color: green;
+            margin-top: 10px;
+        }
+
+        p.error {
+            color: green;
+            margin-top: 10px;
+        }
+
+        .success {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        .error {
+            background-color: green;
+            color: white;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
